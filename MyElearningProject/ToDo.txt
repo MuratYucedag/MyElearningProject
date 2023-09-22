@@ -1,0 +1,14 @@
+﻿Yorum Yapma
+Puan Verme & Puan Sistemi
+Giriş Yapma
+Öğrenci Girişi
+Eğitmen Girişi
+Kurs Satın Alma
+Ana Sayfa (Sizde)
+
+-------------------------------------------------------------
+* 50 Derste Mvc - Youtube
+* 50 Derste Tatil Seyahat Sitesi - Youtube
+* Mvc5 ile Admin Panelli Cv Sitesi - Udemy
+* E-Learning - Kurs //10 Ekim
+-------------------------------------------------------------
