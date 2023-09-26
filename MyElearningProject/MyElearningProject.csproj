@@ -133,6 +133,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InstructorAnalysisController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="DAL\Context\ELearningContext.cs" />
     <Compile Include="DAL\Entities\Category.cs" />
@@ -140,6 +142,8 @@
     <Compile Include="DAL\Entities\Course.cs" />
     <Compile Include="DAL\Entities\CourseRegister.cs" />
     <Compile Include="DAL\Entities\Instructor.cs" />
+    <Compile Include="DAL\Entities\Process.cs" />
+    <Compile Include="DAL\Entities\Review.cs" />
     <Compile Include="DAL\Entities\Student.cs" />
     <Compile Include="DAL\Entities\Testimonial.cs" />
     <Compile Include="Global.asax.cs">
@@ -184,6 +188,14 @@
     <Compile Include="Migrations\202309221730157_mig_add_relations_comment.cs" />
     <Compile Include="Migrations\202309221730157_mig_add_relations_comment.designer.cs">
       <DependentUpon>202309221730157_mig_add_relations_comment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202309261857275_mig_add_review.cs" />
+    <Compile Include="Migrations\202309261857275_mig_add_review.designer.cs">
+      <DependentUpon>202309261857275_mig_add_review.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202309262006322_mig_add_process.cs" />
+    <Compile Include="Migrations\202309262006322_mig_add_process.designer.cs">
+      <DependentUpon>202309262006322_mig_add_process.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -862,6 +874,9 @@
     <Content Include="Views\InstructorAnalysis\InstructorPanelPartial.cshtml" />
     <Content Include="Views\InstructorAnalysis\CommentPartial.cshtml" />
     <Content Include="Views\InstructorAnalysis\CourseListByInstructor.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Profile\Index.cshtml" />
+    <Content Include="Views\Profile\MyCourseList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -911,6 +926,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202309221730157_mig_add_relations_comment.resx">
       <DependentUpon>202309221730157_mig_add_relations_comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309261857275_mig_add_review.resx">
+      <DependentUpon>202309261857275_mig_add_review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309262006322_mig_add_process.resx">
+      <DependentUpon>202309262006322_mig_add_process.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

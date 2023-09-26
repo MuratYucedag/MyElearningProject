@@ -16,5 +16,7 @@ namespace MyElearningProject.DAL.Context
         public DbSet<Course> Courses { get; set; }
         public DbSet<CourseRegister> CourseRegisters { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<Review> Reviews { get; set; }
+        public DbSet<Process> Processes { get; set; }
     }
 }
